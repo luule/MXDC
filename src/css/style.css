@@ -1,0 +1,218 @@
+.wrapper {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.modal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  background-color: #142926;
+  opacity: 0.8;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.model_menu {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+/* Navbar */
+.my_navbar {
+  background-color: #142926;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 9999;
+}
+.navbar_logo {
+  height: 100%;
+  display: inline-block;
+}
+.navbar_menu {
+  height: 100%;
+  display: inline-block;
+  float: right;
+}
+.tab_item {
+  color: #50e3c2;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.menu_item {
+  color: #50e3c2;
+  width: 100%;
+  font-size: 30px;
+  display: block;
+}
+
+.tab_item:hover,
+.menu_item:hover {
+  color: #50e3c2;
+}
+
+/* Panel */
+.text_centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8em;
+  color: #ffffff;
+  text-align: center;
+  max-height: 100%;
+  width: 90%;
+}
+
+.extra_bold {
+  font-family: "Montserrat script=all rev=1", "Adobe Blank";
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 2px 0 #ffffff;
+  letter-spacing: 2px;
+  font-size: 130px;
+}
+
+.sup_text {
+  font-size: 90px;
+}
+
+@media screen and (max-width: 1024px) {
+  .extra_bold {
+    font-size: 80px;
+  }
+  .sup_text {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text_centered {
+    width: 80%;
+  }
+  .extra_bold {
+    font-size: 60px;
+  }
+  .sup_text {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .extra_bold {
+    font-size: 35px;
+  }
+  .sup_text {
+    font-size: 25px;
+  }
+}
+
+/* Content */
+.my_container {
+  margin: 20px;
+}
+
+.card_content {
+  background-color: #f2f2f2;
+}
+
+.card_title {
+  font-weight: bold;
+}
+
+.my_card {
+  height: 100%;
+}
+
+.card_content {
+  height: 50%;
+}
+
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card_image {
+  width: 100%;
+  height: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .card_image {
+    height: 100%;
+  }
+  .card_content {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .card_detail {
+    height: 100%;
+    width: 80%;
+  }
+
+  .card_icon {
+    position: absolute;
+    top: 35%;
+    right: 0px;
+  }
+}
+
+/* Footer */
+.my_footer {
+  background-color: #707877;
+  min-height: 70px;
+}
+
+@media screen and (min-width: 480px) {
+  .footer-menu {
+    float: right;
+  }
+  .footer_logo,
+  .footer-menu {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer_item {
+    display: block;
+  }
+}
+
+.footer_item {
+  color: #ffffff;
+  margin: 2px;
+  font-size: 10px;
+}
+
+.footer_item:hover {
+  color: #ffffff;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
